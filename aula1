@@ -1,0 +1,15 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MaterialApp(
+      home: Scaffold(
+    appBar: AppBar(
+      title: Text("Calrice Store"),
+    ),
+    body: Center(
+      child: Text("Seja Bem-Vindo",
+          style: TextStyle(color: Colors.pink, fontSize: 22.0, fontWeight: FontWeight.bold)),
+    ),
+    
+  )));
+}
